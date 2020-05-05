@@ -2,12 +2,43 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="{{ site.description }}">
     <meta name="keywords" content="{{ site.keywords }}" />
     {% if site.meta_author %}<meta name="author" content="{{ site.meta_author }}">{% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
+
+    <!-- GOOGLE Snippet STARTS -->
+<!-- Update your html tag to include the itemscope and itemtype attributes. -->
+<html itemscope itemtype="http://schema.org/Person">
+
+<!-- Add the following three tags inside head. -->
+<meta itemprop="name" content="{{ site.title }}">
+<meta itemprop="description" content="{{ site.description }}">
+<meta itemprop="image" content="{{ site.url }}/img/anto-cover.png">
+<meta itemprop="role" content="Fullstack Developer">
+<meta itemprop="affiliation" content="pepalo">
+<meta itemprop="url" content="{{ site.url }}">
+<meta itemprop="address" content="Melbourne, Australia">
+<link rel="author" href="https://plus.google.com/+AntoDominic"/>
+<!-- GOOGLE Snippet STOPS -->
+
+<!-- FACEBOOK GRAPH START -->
+<meta property="og:title" content="{{ site.title }}"/>
+<meta property="og:type" content="website"/>
+<meta property="og:image" content="{{ site.url }}/img/anto-cover.png"/>
+<meta property="og:url" content="{{ site.url }}"/>
+<meta property="og:description" content="{{ site.description }}"/>
+<!-- FACEBOOK GRAPH ENDS -->
+
+<!-- TWITTER CARD START -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="{{ site.url }}">
+<meta name="twitter:title" content="{{ site.title }}">
+<meta name="twitter:description" content="{{ site.description }}">
+<meta name="twitter:image" content="{{ site.url }}/img/anto-cover.png">
+<!-- TWITTER CARD ENDS -->
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="{{ "/style.css" }}">

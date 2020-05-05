@@ -1,11 +1,11 @@
 # Site settings
-title: Anto Dominic
+title: Anto Dominic | Portfolio & Blog
 email: mjvavoey
 url: https://www.antodominic.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+description: "FullStack Developer, Entrepreneur, Tech Geek ,Social Media Enthusiast and IEEE volunteer. Interested in Embedded System, Robotics and Programming."
+keywords: "Full Stack Developer, Ruby on Rails Developer, Devops, AWS, Heroku, Salesforce, Blockchain"
 skills: "Ruby on Rails Developer - DevOps Specialist - AWS Solution Architect"
-meta_author: Dominic Anto
+meta_author: Anto Dominic
 
 # Google webmaster tools
 google_verify:
