@@ -1,10 +1,10 @@
 # Site settings
 title: Anto Dominic
 meta_title: Anto Dominic | Portfolio & Blog
-email: mjvavoey
+email: antodoms@pepalo.com
 url: https://www.antodominic.com
 description: "FullStack Developer, Entrepreneur, Tech Geek ,Social Media Enthusiast and IEEE volunteer. Interested in Embedded System, Robotics and Programming."
-keywords: "Full Stack Developer, Ruby on Rails Developer, Devops, AWS, Heroku, Salesforce, Blockchain"
+keywords: "Full Stack Developer, Ruby on Rails Developer, Salesforce Developer, Devops, AWS, Heroku, Blockchain"
 skills: "Ruby on Rails Developer - DevOps Specialist - AWS Solution Architect"
 meta_author: Anto Dominic
 
@@ -45,7 +45,7 @@ social:
   - title: facebook
     url: https://www.facebook.com/antodoms
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: https://stackexchange.com/users/5385206/anto-dominic?tab=accounts
   - title: linkedin
     url: https://in.linkedin.com/pub/anto-dominic/26/742/118/
   - title: github
@@ -58,7 +58,7 @@ address:
   - line: Craigieburn VIC 3064
 
 # Credits content
-credits: 'This website is powered by Jekyll and hosted for using Github pages.'
+credits: 'This website is powered by Jekyll and hosted in Github pages.'
 
 # Build settings
 markdown: kramdown
