@@ -4,7 +4,7 @@
  *   handles CamelCase properly, attempts to use standard 
  *   Object.defineProperty() (and Function bind()) methods, 
  *   falls back to native implementation when existing
- * Inspired by http://code.eligrey.com/html5/dataset/ 
+ * Inspired by https://code.eligrey.com/html5/dataset/ 
  *   (via https://github.com/adalgiso/html5-dataset/blob/master/html5-dataset.js )
  * Depends on Function.bind and Object.defineProperty/Object.getOwnPropertyDescriptor (shims below)
  * Licensed under the X11/MIT License
@@ -38,11 +38,11 @@ if (!Function.prototype.bind) {
  
 /*
  * Xccessors Standard: Cross-browser ECMAScript 5 accessors
- * http://purl.eligrey.com/github/Xccessors
+ * https://purl.eligrey.com/github/Xccessors
  * 
  * 2010-06-21
  * 
- * By Eli Grey, http://eligrey.com
+ * By Eli Grey, https://eligrey.com
  * 
  * A shim that partially implements Object.defineProperty,
  * Object.getOwnPropertyDescriptor, and Object.defineProperties in browsers that have
@@ -57,7 +57,7 @@ if (!Function.prototype.bind) {
 /*jslint white: true, undef: true, plusplus: true,
   bitwise: true, regexp: true, newcap: true, maxlen: 90 */
  
-/*! @source http://purl.eligrey.com/github/Xccessors/blob/master/xccessors-standard.js*/
+/*! @source https://purl.eligrey.com/github/Xccessors/blob/master/xccessors-standard.js*/
  
 (function () {
     'use strict';

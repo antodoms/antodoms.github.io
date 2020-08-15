@@ -19,8 +19,8 @@ var innerBg = document.querySelector('.innerBg');
  * ------------------------------------------------
  *  author:  Bartek Szopka
  *  version: 0.5.3
- *  url:     http://bartaz.github.com/impress.js/
- *  source:  http://github.com/bartaz/impress.js/
+ *  url:     https://bartaz.github.com/impress.js/
+ *  source:  https://github.com/bartaz/impress.js/
  */
 
 /*jshint bitwise:true, curly:true, eqeqeq:true, forin:true, latedef:true, newcap:true,
@@ -35,7 +35,7 @@ var innerBg = document.querySelector('.innerBg');
     
     // `pfx` is a function that takes a standard CSS property name as a parameter
     // and returns it's prefixed version valid for current browser it runs in.
-    // The code is heavily inspired by Modernizr http://www.modernizr.com/
+    // The code is heavily inspired by Modernizr https://www.modernizr.com/
     var pfx = (function () {
         
         var style = document.createElement('dummy').style,
@@ -562,7 +562,7 @@ var innerBg = document.querySelector('.innerBg');
             // So I decided that I'd rather make the code simpler than use shiny new `transitionend`.
             //
             // If you want learn something interesting and see how it was done with `transitionend` go back to
-            // version 0.5.2 of impress.js: http://github.com/bartaz/impress.js/blob/0.5.2/js/impress.js
+            // version 0.5.2 of impress.js: https://github.com/bartaz/impress.js/blob/0.5.2/js/impress.js
             window.clearTimeout(stepEnterTimeout);
             stepEnterTimeout = window.setTimeout(function() {
                 onStepEnter(activeStep);
@@ -630,7 +630,7 @@ var innerBg = document.querySelector('.innerBg');
             //
             // And it has to be set after animation finishes, because in Chrome it
             // makes transtion laggy.
-            // BUG: http://code.google.com/p/chromium/issues/detail?id=62820
+            // BUG: https://code.google.com/p/chromium/issues/detail?id=62820
             root.addEventListener("impress:stepenter", function (event) {
                 window.location.hash = lastHash = "#/" + event.target.id;
             }, false);
@@ -680,7 +680,7 @@ var innerBg = document.querySelector('.innerBg');
     'use strict';
     
     // throttling function calls, by Remy Sharp
-    // http://remysharp.com/2010/07/21/throttling-function-calls/
+    // https://remysharp.com/2010/07/21/throttling-function-calls/
     var throttle = function (fn, delay) {
         var timer = null;
         return function () {

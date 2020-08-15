@@ -186,7 +186,7 @@ var ready = (function(){
 
         try {
             // If IE is used, use the trick by Diego Perini
-            // http://javascript.nwbox.com/IEContentLoaded/
+            // https://javascript.nwbox.com/IEContentLoaded/
             document.documentElement.doScroll("left");
         } catch(e) {
             setTimeout( doScrollCheck, 1 );
