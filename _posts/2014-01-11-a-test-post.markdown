@@ -3,12 +3,9 @@ layout: post
 title: Why I used jekyll and Ruby on Rails for my portfolio blog ?
 published: true
 category: blogging
-permalink: why-I-used-Jekyll-on-Ruby-on-rails-Application.html
+permalink: posts/why-I-used-Jekyll-on-Ruby-on-rails-Application.html
 comments: true
 ---
-
-{{ page.title }}
-================
 If you are one of those tech geeks who only want the reason to why I shifted to Ruby on rails and jekyll for my personal website rather than the traditional wordpress based portfolio, you can skip my sad Flashback story about why It took me a year to complete my portfolio blog. Please remember some points I mention here may not be liked by few but I guess it proves my title. :P
 
 
